@@ -1,0 +1,10 @@
+language: bash
+script: zip worshipsongs.zip *.onsong
+deploy:
+  provider: releases
+  api_key:
+    secure: insert-here
+  file: build/worshipsongs.zip
+  on:
+    repo: jswetzen/worship
+  skip_cleanup: true
