@@ -1,4 +1,4 @@
-language: bash
+language:
 script: zip worshipsongs.zip *.onsong
 deploy:
   provider: releases
