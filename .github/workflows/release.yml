@@ -18,8 +18,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Checkout Swedish songs
+        uses: actions/checkout@v4
+        with:
+          repository: jswetzen/worship-swedish
+          path: worship-swedish
+
       - name: Build worshipsongs.zip
-        run: zip worshipsongs.zip *.onsong
+        # -j flattens worship-swedish/ so all songs sit at the zip root
+        run: zip -j worshipsongs.zip *.onsong worship-swedish/*.onsong
 
       - name: Publish release
         uses: softprops/action-gh-release@v2
