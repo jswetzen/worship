@@ -28,9 +28,17 @@ jobs:
         # -j flattens worship-swedish/ so all songs sit at the zip root
         run: zip -j worshipsongs.zip *.onsong worship-swedish/*.onsong
 
+      - name: Build set zips
+        # One dist/<name>.zip per sets/<name>.txt. Songs the script cannot
+        # find are skipped with a warning in this step's log rather than
+        # failing the release.
+        run: ./build-sets.sh
+
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
           name: Latest
-          files: worshipsongs.zip
+          files: |
+            worshipsongs.zip
+            dist/*.zip

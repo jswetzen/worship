@@ -1,0 +1,19 @@
+# One song per line, in set order. A line matches a song's file name or its
+# Title: (case and punctuation don't matter), or failing that the start of
+# one, as long as only one song starts that way. Lines starting with # are
+# comments. See build-sets.sh.
+Here for you
+Vi är här för dig
+Majesty (Here I Am)
+Great I am
+Här är jag sänd mig
+Any Good Thing
+How great is our God
+Holy forever
+Holy spirit
+I speak Jesus
+Goodness of God
+10000 Reasons
+O come to the altar
+Broken vessels
+The blessing
