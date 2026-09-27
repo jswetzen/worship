@@ -6,7 +6,8 @@
 #
 # A set list is a plain text file with one song title per line, in set order,
 # so a list can be pasted straight from a chat message. Blank lines and lines
-# starting with # are ignored. Charts are looked up here and in the Swedish
+# starting with # are ignored. A line may end in "| <key>" ("Oceans | D") to
+# have the set PDF print that song transposed; it is ignored here. Charts are looked up here and in the Swedish
 # repo ($SWEDISH_DIR: ./worship-swedish, where the release workflow checks it
 # out, or else the sibling checkout ../worship-swedish).
 #
@@ -65,7 +66,10 @@ build_set() {
 
   while IFS= read -r line || [[ -n $line ]]; do
     [[ $line =~ ^[[:space:]]*# ]] && continue
-    q=$(printf '%s\n' "$line" | norm)
+    # "Goodness of God | G": the key after | is for the PDF build
+    # (tools/setpdf), which prints the song transposed; the zip keeps every
+    # chart in its own key so importing it never overwrites a song's key.
+    q=$(printf '%s\n' "${line%%|*}" | norm)
     [[ -z $q ]] && continue
 
     hits=()

@@ -34,6 +34,20 @@ jobs:
         # failing the release.
         run: ./build-sets.sh
 
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Build set PDFs
+        # One dist/<name>.pdf per sets/<name>.txt, transposed where the set
+        # line asks for a key. build.py declares its own dependencies (the
+        # typst package) inline, so uv needs no project to install them, and
+        # it ignores system fonts in favour of tools/setpdf/fonts, so the
+        # runner's PDF matches a local build. The unit tests run first: a
+        # transposer regression would otherwise ship wrong chords silently.
+        run: |
+          uv run --with pytest --with 'typst==0.15.*' pytest -q tools/setpdf/test_build.py
+          uv run tools/setpdf/build.py
+
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
@@ -42,3 +56,4 @@ jobs:
           files: |
             worshipsongs.zip
             dist/*.zip
+            dist/*.pdf
