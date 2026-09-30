@@ -1,0 +1,13 @@
+# One song per line, in set order. A line matches a song's file name or its
+# Title: (case and punctuation don't matter), or failing that the start of
+# one, as long as only one song starts that way. "| key" prints the song
+# transposed in the set PDF. See build-sets.sh.
+#
+# Example MEG26 session 4 of 6, built 2026-09-30 from Wimber's five phases of
+# worship (call, engagement, expression, visitation, giving), one song per
+# phase, with keys picked to minimise key changes: G, then up to C for the last song.
+Here for You | G
+How Great Is Our God | G
+Broken Vessels
+Holy Spirit | G
+O Come to the Altar
