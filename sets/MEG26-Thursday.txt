@@ -1,0 +1,15 @@
+# One song per line, in set order. A line matches a song's file name or its
+# Title: (case and punctuation don't matter), or failing that the start of
+# one, as long as only one song starts that way. "| key" prints the song
+# transposed in the set PDF. See build-sets.sh.
+#
+# MEG26 Thursday evening (2026-10-01), as sent by the worship leader: these
+# four songs, all in E. Goodness of God is followed by its Swedish, French
+# and Spanish charts so any language can be picked on the night.
+10000 Reasons | E
+Goodness of God | E
+Din Godhet | E
+La Bonté de Dieu | E
+La Bondad de Dios | E
+O Come To the Altar | E
+Great I Am | E
