@@ -6,10 +6,10 @@
 # MEG26 Thursday evening (2026-10-01), as sent by the worship leader: these
 # four songs, all in E. Goodness of God is followed by its Swedish, French
 # and Spanish charts so any language can be picked on the night.
-10000 Reasons | E
-Goodness of God | E
-Din Godhet | E
-La Bonté de Dieu | E
-La Bondad de Dios | E
-O Come To the Altar | E
-Great I Am | E
+10000 Reasons | D
+Goodness of God | D
+Din Godhet | D
+La Bonté de Dieu | D
+La Bondad de Dios | D
+O Come To the Altar | D
+Great I Am | D
