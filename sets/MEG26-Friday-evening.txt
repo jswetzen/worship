@@ -1,0 +1,17 @@
+# One song per line, in set order. A line matches a song's file name or its
+# Title: (case and punctuation don't matter), or failing that the start of
+# one, as long as only one song starts that way. "| key" prints the song
+# transposed in the set PDF. See build-sets.sh.
+#
+# MEG26 Friday evening (2026-10-02). Keys chosen with Thursday's (all D) and
+# Friday morning's (D, then A) actual sets in mind: both leaders took the
+# keys down to D, so the first four songs stay there. Här är jag sänd mig
+# starts in C, its written key, and climbs a tone twice (C -> D -> E) to
+# end in E. Bb was the other option, which would have ended back in D.
+# Each Swedish/English pair is listed together so either can be played.
+Here for You | D
+Vi är här för dig | D
+How Great Is Our God | D
+Holy Spirit | D
+Här är jag sänd mig | C
+Here I Am, Send Me | C
