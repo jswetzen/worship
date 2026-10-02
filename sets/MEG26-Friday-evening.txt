@@ -3,15 +3,20 @@
 # one, as long as only one song starts that way. "| key" prints the song
 # transposed in the set PDF. See build-sets.sh.
 #
-# MEG26 Friday evening (2026-10-02). Keys chosen with Thursday's (all D) and
-# Friday morning's (D, then A) actual sets in mind: both leaders took the
-# keys down to D, so the first four songs stay there. Här är jag sänd mig
-# starts in C, its written key, and climbs a tone twice (C -> D -> E) to
-# end in E. Bb was the other option, which would have ended back in D.
+# MEG26 Friday evening (2026-10-02). First set D for the first four songs, to
+# match the keys Thursday's and Friday morning's leaders had moved down to;
+# after singing them through, Johan found they sit better in G, so they are
+# all in G. Här är jag sänd mig starts in C, its written key, and climbs a
+# tone twice (C -> D -> E). Goodness of God, added at the end in all four
+# languages so any can be picked on the night, is back down in C.
 # Each Swedish/English pair is listed together so either can be played.
-Here for You | D
-Vi är här för dig | D
-How Great Is Our God | D
-Holy Spirit | D
+Here for You | G
+Vi är här för dig | G
+How Great Is Our God | G
+Holy Spirit | G
 Här är jag sänd mig | C
 Here I Am, Send Me | C
+Goodness of God | C
+Din Godhet | C
+La Bonté de Dieu | C
+La Bondad de Dios | C
