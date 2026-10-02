@@ -3,16 +3,15 @@
 # one, as long as only one song starts that way. "| key" prints the song
 # transposed in the set PDF. See build-sets.sh.
 #
-# MEG26 Friday morning (2026-10-02), Ashley leading, in the order sent. Keys
-# follow the earlier sets: the first three in G (Broken Vessels' original key,
-# and Here for You and Holy Spirit were already in G in example sets 4 and 5),
-# then up a fourth to C for Holy Forever, its MEG26 key, so there is only one
-# key change and G -> C is the easiest one to make. The leader wants some
+# MEG26 Friday morning (2026-10-02), Ashley leading, in the order sent. First
+# suggested as G, then up to C for Holy Forever (the keys the earlier sets
+# used); Johan then set them a fourth lower, D for the first three and A for
+# Holy Forever, keeping the single key change. The leader wants some
 # choruses in other languages: Swedish Here for You is in the Swedish repo and
 # follows it here. As of 2026-10-02 there are no charts for French Here for
 # You, Spanish Holy Spirit, French Broken Vessels or Swedish/German Holy Forever.
-Here for You | G
-Vi är här för dig | G
-Holy Spirit | G
-Broken Vessels | G
-Holy Forever | C
+Here for You | D
+Vi är här för dig | D
+Holy Spirit | D
+Broken Vessels | D
+Holy Forever | A
