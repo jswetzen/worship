@@ -1,0 +1,14 @@
+# One song per line, in set order. A line matches a song's file name or its
+# Title: (case and punctuation don't matter), or failing that the start of
+# one, as long as only one song starts that way. "| key" prints the song
+# transposed in the set PDF. See build-sets.sh.
+#
+# MEG26 Saturday morning (2026-10-03). All in G, no key change: Johan found
+# G sat best for him when singing Friday evening's set through. 10000 Reasons
+# is in G as written. O Come to the Altar is four semitones below the
+# recording (B) and three below Thursday's D, so if its chorus feels too low,
+# start it in C (as written) and drop to G for the other three.
+O Come to the Altar | G
+10000 Reasons | G
+How Great Is Our God | G
+Majesty (Here I Am) | G
