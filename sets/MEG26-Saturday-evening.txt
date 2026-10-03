@@ -1,0 +1,13 @@
+# One song per line, in set order. A line matches a song's file name or its
+# Title: (case and punctuation don't matter), or failing that the start of
+# one, as long as only one song starts that way. "| key" prints the song
+# transposed in the set PDF. See build-sets.sh.
+#
+# MEG26 Saturday evening (2026-10-03). G for the first two songs, D for the
+# last two. "Majesty" here is Delirious' "Majesty (Here I Am)", written in C
+# and transposed to G, as in Saturday morning's set. The full title is needed
+# because plain "Majesty" would match the Jack Hayford song exactly.
+Majesty (Here I Am) | G
+How Great Is Our God | G
+Great I Am | D
+I Speak Jesus | D
